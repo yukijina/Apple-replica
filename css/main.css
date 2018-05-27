@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.link-to {
+  text-decoration: none;
+  color: #000;
+  /*== All link of the products for div tag ==  */
+}
+
+/* =====================================
+[1] Navigation
+[2] Header - iPhoneX
+[3] iPhone RED
+[4] iPad section
+[5] 3 items (6 prodcuts) section
+    - WATCH -  Heart
+    - MacBook - HomePod
+    - Why iPhone - Airpods
+[6] Sitemap  & footer
+=========================================
+  */
+
+/* ========== [1] Navigation ===========*/
+nav {
+  background-color: #323232;
+  color: #fff;
+  padding: 12px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0 32px;
+  margin-left: 13px;
+}
+
+nav li i {
+  font-size: 140%;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 88%;
+}
+
+nav li a:hover {
+  color: #605d5d;
+  transition: 0.2s;
+}
+
+/* ======== [2] iPhone X (Header) =========== */
+.header {
+  text-align: center;
+  padding-top: 88px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3.3em;
+}
+
+.header h2 {
+  padding-top: 10px;
+  font-weight: 400;
+  font-size: 1.6em;
+}
+
+.header img {
+  display: block;
+  height: 380px;
+}
+
+/* iPhone Red Section */
+.red {
+  background-color: #AE1228;
+  color: #fff;
+  text-align: center;
+}
+
+.red h3 {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 7px 18px;
+  font-size: 99%;
+  margin-top: 40px;
+}
+
+.red h2 {
+  font-size: 2.8em;
+  font-weight: 700;
+  margin: 20px;
+}
+
+.red a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3em;
+  padding: 0 8px;
+}
+
+.red a:hover {
+  text-decoration: underline;
+}
+
+/* ======[3] iPad Section ============== */
+.iPad {
+  text-align: center;
+}
+
+.iPad h2 {
+  font-size: 3em;
+  font-weight: 700;
+  margin-top: 40px;
+}
+
+.iPad h3 {
+  font-size: 1.6em;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.iPad img {
+  height: 400px;
+  width: 900px;
+}
+
+/* ======== [4]Item Section ============ */
+/* common css */
+.item {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.watch,
+.heart,
+.macbook,
+.homepod,
+.why,
+.airpods {
+  height: auto;
+  width: 40%;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 30px 5px;
+}
+
+.watch img,
+.heart img,
+.macbook img,
+.homepod img,
+.why img,
+.airpods img  {
+  width: 100%;
+  height: 100%;
+}
+
+/* =========== Watch ==================  */
+.watch {
+  background-color: #EEEEEE;
+}
+
+.watch h2 {
+  font-size: 1.8em;
+  font-weight: 700;
+}
+
+.watch h3 {
+  color: red;
+  font-size: 0.8em;
+  font-weight: 400;
+  padding-bottom: 8px;
+}
+
+.watch p {
+  font-size: 1.2em;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+/* =========== Heart ==================== */
+.heart {
+  vertical-align: top;
+}
+
+.heart h2 {
+  font-size: 2.4em;
+  font-weight: 700;
+}
+
+.heart p {
+  font-size: 1.3em;
+  font-weight: 400;
+  padding: 10px 0 20px 0;
+}
+
+/* =========== MacBook ================= */
+.macbook
+.homepod {
+  vertical-align: top;
+}
+
+.macbook h2,
+.homepod h2 {
+  font-size: 2.4em;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.macbook p {
+  font-size: 1.2em;
+  font-weight: 400;
+  padding-bottom: 60px
+}
+
+ /* ============= HomePod ============== */
+.homepod p {
+  font-size: 1.2em;
+  font-weight: 400;
+  padding-bottom: 40px;
+}
+
+/* ========== Why iPhone ============== */
+.why {
+  background-color: #528B9A;
+  color: #fff;
+}
+
+.why h2 {
+  font-size: 2.4em;
+  font-weight: 700;
+  padding: 28px 0 12px 0;
+}
+
+.why p {
+  font-size: 1.2em;
+  padding-bottom: 30px
+}
+
+/* ============= Airpods =============== */
+.airpods {
+  vertical-align: top;
+}
+
+.airpods h2{
+  font-size: 2.3em;
+  font-weight: 700;
+  padding-bottom: 12px;
+  padding-top: 30px;
+}
+
+.airpods p {
+  font-size: 1.2em;
+  padding-bottom: 30px;
+}
+
+/* ========= Sitemap section ============ */
+.sitemap {
+  background-color: #F2F2F2;
+  margin-top: 10px;
+  padding: 10px 100px;
+  color: #a8a8a8;
+}
+
+.comment {
+  font-size: 0.7em;
+  padding-top: 5px;
+  padding-bottom: 18px;
+}
+
+hr {
+  border: 0.6px solid #dfdede;
+}
+
+/* Under the horizon - list of links */
+.box {
+  display: inline-block;
+  width: 18%;
+  padding: 35px 6px;
+  vertical-align: top;
+}
+
+.box ul {
+  padding: 8px;
+}
+
+.box li {
+  list-style: none;
+}
+
+.box a {
+  text-decoration: none;
+  text-align: left;
+  font-size: 0.7em;
+  line-height: 1.8em;
+  color: #605d5d;
+}
+/* box a hover - check 'footer a hover' section below */
+
+.box span {
+  font-weight: 400;
+  font-size: 0.8em;
+  line-height: 1.8em;
+  color: #605d5d;
+}
+
+/* ============ Footer ================= */
+footer {
+    font-size: 0.7em;
+}
+
+footer p {
+  padding-bottom: 10px;
+}
+
+footer p a {
+  text-decoration: none;
+  color: #2699d2;
+}
+
+.box a:hover,
+footer a:hover {
+  text-decoration: underline;
+}
+
+.bottom ul {
+  padding: 10px 0;
+}
+
+.bottom li {
+  display: inline-block;
+  border-right: 1px solid;
+}
+
+.bottom li:first-child {
+  padding-right: 45px;
+  border-right-style: none;
+}
+
+.bottom li:nth-child(6) {
+  border-right-style: none;
+}
+
+.bottom li:nth-child(7) {
+    border-right-style: none;
+    float: right;
+}
+
+.bottom a {
+  text-decoration: none;
+  color: #605d5d;
+  padding: 0 8px;
+}
